@@ -1,8 +1,10 @@
 Requires plotutils.
 
-Arg1 : # of iterations
-Arg2 : # of points
-Arg3 : srand
+argv[1] : # of iterations
+
+argv[2] : # of points
+
+argv[3] : srand
 
 ```
     81	10:54	setenv LD_LIBRARY_PATH $PWD/plotutils/lib/
